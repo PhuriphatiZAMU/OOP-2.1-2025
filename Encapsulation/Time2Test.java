@@ -1,3 +1,4 @@
+package Encapsulation;
 class Time2 {
     
     // Instance Variables 

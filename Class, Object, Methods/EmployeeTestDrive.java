@@ -44,7 +44,7 @@ class Employee {
             PH.setSalary(100_000);
             System.out.printf("เงินเดือน: %.2f" , PH.getSalary("1212312121"));
         
-            Employee RR = new Employee();
+            //            Employee RR = new Employee();
             
             Scanner input = new Scanner(System.in);
             
@@ -56,6 +56,8 @@ class Employee {
             input.close();
             
             Employee CJ = new Employee(0311 , "Chanitha");
+            // Use CJ to avoid unused variable warning
+            System.out.printf("CJ's id = %d, name = %s%n", CJ.id, CJ.name);
             
             System.out.printf("name = %s ", name);
             System.out.printf("id = %d" , epid);

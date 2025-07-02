@@ -1,3 +1,4 @@
+package Encapsulation;
 // คลาส BankAccount แทนบัญชีธนาคารอย่างง่ายพร้อมฟังก์ชันพื้นฐาน
 public class BankAccount {
     // ฟิลด์สำหรับเลขที่บัญชี, ชื่อเจ้าของบัญชี และยอดเงินคงเหลือ
