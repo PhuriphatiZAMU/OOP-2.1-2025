@@ -3,6 +3,7 @@
 > 📅 Academic Year: 2025\
 > 👨‍🎓 Student: Phuriphati Hemakul\
 > 🏫 Course: Object-Oriented Programming (OOP)\
+> 🏫 Institution: Panyapiwat Institute of Management\
 > 🖥️ Language: Java
 
 ---
@@ -15,15 +16,17 @@ This portfolio showcases various Java programs created during the **Object-Orien
 
 ## 📂 Project Structure
 
+The project is organized to separate source code and documentation for better clarity:
+
 ```
 OOP-2.1-2025/
-├── src/
-│   ├── Account.java
-│   ├── Calculation.java
-│   ├── CharArray.java
-│   ├── Student.java
-│   └── ... (more files)
-├── README.md
+├── src/                       # Java source files
+│   ├── Account.java           # Bank account management
+│   ├── Calculation.java       # Math and temperature conversions
+│   ├── CharArray.java         # Character array and string processing
+│   ├── Student.java           # Student data encapsulation
+│   └── ... (more files)       # Additional practice files
+├── README.md                 # Project documentation (this file)
 ```
 
 Each file explores different Java topics, from basic syntax and class creation to encapsulation and basic GUIs.
@@ -69,7 +72,7 @@ By the end of this project, I achieved:
 
 Hi! I'm **Phuriphati Hemakul**, a 2nd-year university student passionate about software development and clean code. This portfolio represents my journey learning Java through real practice.
 
-- 🔗 [PhuriphatiZAMU](https://github.com/PhuriphatiZAMU)
+- 🔗 [My GitHub](https://github.com/PhuriphatiZAMU)
 - 💼 Always open to learning and collaborating on new ideas
 
 ---
