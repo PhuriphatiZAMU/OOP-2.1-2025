@@ -1,4 +1,4 @@
-package Encapsulation;
+
 class Product
 {
     String productName;

@@ -58,7 +58,7 @@ public class BankAccount {
     // คืนค่าข้อมูลบัญชีในรูปแบบสตริง
     @Override
     public String toString() {
-        return String.format("Account Number: %s, Account Holder: %s, Balance: %.2f", 
+        return String.format("Account Number: %s\nAccount Holder: %s\nBalance: %.2f",
                              accountNumber, accountHolderName, balance);
     }
 

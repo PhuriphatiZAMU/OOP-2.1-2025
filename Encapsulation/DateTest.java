@@ -12,11 +12,29 @@ class Date {
                 setYear(year);
 
             }
+   
             public Date (Date date){
 
                 this(date.getDay(), date.getMonth(), date.getYear());
 
             }
+
+            public int getDay() {
+
+                return day;
+
+            }
+            public int getMonth() {
+
+                return month;
+
+            }
+            public int getYear() {
+
+                return year;
+
+            }   
+
             public void setDay (int day){
 
                 if (day < 31  && day >= 1 ) {
@@ -40,21 +58,7 @@ class Date {
                 }
 
             }
-            public int getDay() {
-
-                return day;
-
-            }
-            public int getMonth() {
-
-                return month;
-
-            }
-            public int getYear() {
-
-                return year;
-
-            }       
+            
 
             @Override
             public String toString(){
@@ -65,13 +69,14 @@ class Date {
 
 
 public class DateTest {
-
-        public static void main(String[] args) {
+    
+    
+    public static void main(String[] args) {
        
-        Date date = new Date (32, 13, 10000);
+        Date date = new Date (20, 6, 2022);
         System.out.println(date.toString());
-        
-        }
-
-
+    }
+            
+    
 }
+
