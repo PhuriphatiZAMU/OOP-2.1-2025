@@ -1,4 +1,4 @@
-package Encapsulation;
+package Encapsulation.Date;
 class Date {
 
             private int day;
@@ -11,6 +11,18 @@ class Date {
                 setMonth(month);
                 setYear(year);
 
+            }
+            public boolean isVallidDay(int day, int month){
+                if (month < 1 || month > 12) {
+                    return false;
+                }
+                if (day < 1 || day > 31) {
+                    return false;
+                }
+                if (month == 4 || month == 6 || month == 9 || month == 11) {
+                    return day <= 30;
+                }
+                return true;
             }
    
             public Date (Date date){
@@ -60,23 +72,15 @@ class Date {
             }
             
 
+
+
             @Override
             public String toString(){
-                return String.format("%02d/%02d/%04d", day , month , year );
+                return String.format("%02d/%02d/%04d = ค่าเป็น %b", day , month , year,isVallidDay(day, month) );
             }
 
 }
 
 
-public class DateTest {
-    
-    
-    public static void main(String[] args) {
-       
-        Date date = new Date (20, 6, 2022);
-        System.out.println(date.toString());
-    }
-            
-    
-}
+
 

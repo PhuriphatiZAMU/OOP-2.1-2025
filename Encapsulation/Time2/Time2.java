@@ -1,4 +1,4 @@
-package Encapsulation;
+package Encapsulation.Time2;
 class Time2 {
     private int hour;
     private int minute;
@@ -49,12 +49,5 @@ class Time2 {
     @Override
     public String toString() {
         return String.format("%02d:%02d:%02d", hour, minute, second);
-    }
-}
-public class Time2Test {
-    public static void main(String[] args) {
-        Time2 time = new Time2(10, 30, 45);
-        System.out.println(time.toString());
-
     }
 }
