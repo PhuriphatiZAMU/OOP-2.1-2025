@@ -24,9 +24,9 @@ class BankAccount{
         if (initialBalance < 500.0) {
             throw new IllegalArgumentException("To open an account, a minimum deposit of 500 baht is required.");
         } this.balance = initialBalance;
-    } 
-    // เมธอดฝากเงิน
-    public void deposit(double amount) {
+        } 
+     // เมธอดฝากเงิน
+        public void deposit(double amount) {
         // ตรวจสอบว่าจำนวนเงินที่ฝากต้องมากกว่า 0
         if (amount <= 0) {
             // หากจำนวนเงินฝากไม่ถูกต้อง ให้โยนข้อผิดพลาด
