@@ -1,6 +1,6 @@
 package Abstraction.AbstractClass;
 
-public class Main {
+public class TestShape {
     public static void main(String[] args) {
         Shape circle = new Circle(5);
         Shape rectangle = new Rectangle(4, 7);

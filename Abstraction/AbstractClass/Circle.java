@@ -1,5 +1,4 @@
 package Abstraction.AbstractClass;
-
 class Circle extends Shape {
     private double radius;
 
