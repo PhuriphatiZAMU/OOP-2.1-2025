@@ -1,32 +1,45 @@
 package Polymorphism.Shape;
 
-class Square extends Rectangle {
+class Square extends Shape {
+
     protected double side;
-    
-    public Square(){
+
+    public Square() {
         super();
     }
-    public Square(double side) {
-        super(side, side); 
-    }
 
-    public Square(double side , String color, boolean filled){
+    public Square(double side) {
         super();
         this.side = side;
     }
+
+    public Square(String color, boolean filled, double side) {
+        super(color, filled);
+        this.side = side;
+    }
+
     public double getSide() {
         return side;
     }
+
     public void setSide(double side) {
         this.side = side;
     }
-    public void setWidth(double width) {
-        super.setWidth(width);
+
+    public double getArea() {
+        return side * side;
     }
-    public void setLength(double length) {
-        super.setLength(length);
+
+    public double getPerimeter() {
+        return 4 * side;
     }
-    public String toString(){
-        return String.format("A Square with side = %.2f , which is a subclass of %s", side,super.toString());
+
+    public String toString() {
+        return String.format(
+            "A Square with side = %.2f, which is a subclass of %s", 
+            side, 
+            super.toString()
+        );
     }
 }
+

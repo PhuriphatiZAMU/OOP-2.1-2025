@@ -4,13 +4,18 @@ public class TestShape {
 
     public static void main(String[] args) {
        
-        Shape c = new Circle("Blue", true , 5.0);
-        System.out.println(c);
-        Shape c2 = new Circle("Red", false , 4.0);
-        System.out.println(c2);
-        
+        Shape circle = new Circle("Blue",true,5.0);
+        Shape rectangle = new Rectangle("Red",false,4.0, 6.0);
+        Shape Square = new Square("Green",true,4.0);
+
+
+    
 
     }
 
+        
+
 }
+
+
 
