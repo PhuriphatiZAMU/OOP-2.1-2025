@@ -1,10 +1,10 @@
 # 🎓 OOP-2.1-2025 Java Portfolio
 
-> 📅 Academic Year: 2025  
-> 👨‍🎓 Student: Phuriphati Hemakul  
-> 🏫 Institution: Panyapiwat Institute of Management  
-> 💻 Course: Object-Oriented Programming (OOP)  
-> 🔤 Language: Java  
+> 📅 Academic Year: 2025\
+> 👨‍🎓 Student: Phuriphati Hemakul\
+> 🏫 Institution: Panyapiwat Institute of Management\
+> 💻 Course: Object-Oriented Programming (OOP)\
+> 🔤 Language: Java
 
 ---
 
@@ -15,8 +15,6 @@ This repository contains a collection of Java programs created as part of the **
 ---
 
 ## 📂 Project Structure
-
-The repository is organized as follows:
 
 ```
 OOP-2.1-2025/
@@ -35,13 +33,18 @@ OOP-2.1-2025/
 
 ## ✨ Highlights
 
-| 🔢 **Topic**             | 💡 **Description**                                                                 |
-|-------------------------|------------------------------------------------------------------------------------|
-| **1. Introduction**     | Covers Java basics: syntax, data types, variables, operators, and simple I/O.     |
-| **2. String and Character** | Explores string manipulation, character operations, and common methods like `charAt()`, `substring()`, and `toCharArray()`. |
-| **3. Class, Object, Methods** | Demonstrates how to define classes, create objects, and structure reusable methods in Java. |
-| **4. Encapsulation**     | Focuses on data protection using private fields, constructors, and getter/setter methods. |
-| **5. Inheritance**       | Introduces class hierarchies, code reuse, and the use of `extends` and `super`.   |
+| 🔢 **Topic**                  | 💡 **Description**                                                                                                          |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| **1. Introduction**           | Covers Java basics: syntax, data types, variables, operators, and simple I/O.                                               |
+| **2. String and Character**   | Explores string manipulation, character operations, and common methods like `charAt()`, `substring()`, and `toCharArray()`. |
+| **3. Class, Object, Methods** | Demonstrates how to define classes, create objects, and structure reusable methods in Java.                                 |
+| **4. Encapsulation**          | Focuses on data protection using private fields, constructors, and getter/setter methods.                                   |
+| **5. Inheritance**            | Introduces class hierarchies, code reuse, and the use of `extends` and `super`.                                             |
+| **6. Abstraction**            | Explains abstract classes/interfaces and hiding complexity.                                                                 |
+| **7. Polymorphism**           | Demonstrates method overriding and dynamic dispatch in Java.                                                                |
+| **8. GUI Programming**        | Shows simple Java GUI apps using Swing/JOptionPane.                                                                         |
+| **9. Error and Exception**    | Covers exception handling, try-catch, and Java error types.                                                                 |
+| **10. Collections**           | Introduces Java Collection Framework such as List, Set, and Map.                                                            |
 
 ---
 
