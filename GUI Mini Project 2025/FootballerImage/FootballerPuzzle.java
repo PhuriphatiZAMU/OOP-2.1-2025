@@ -1,5 +1,7 @@
 package FootballerImage;
 
+
+
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
@@ -329,7 +331,6 @@ public class FootballerPuzzle extends JFrame {
                 repaint();
                 if (t >= 1f) {
                     animTimer.stop();
-                    Icon doneIcon = this.icon; // กัน NPE หาก clear ระหว่างทาง
                     clear();
                     if (onDone != null) onDone.run();
                 }
