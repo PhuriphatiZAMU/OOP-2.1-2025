@@ -173,6 +173,8 @@ public class PuzzleUI extends JPanel {
         JPanel panel = new JPanel(new BorderLayout(8,8));
         panel.add(new JLabel(msg), BorderLayout.NORTH);
         panel.add(pic, BorderLayout.CENTER);
+        panel.setPreferredSize(new Dimension(320, 400));
+        
 
         Object[] options = {"Continue", "Close"};
         int choice = JOptionPane.showOptionDialog(this, panel, "Level Complete",
