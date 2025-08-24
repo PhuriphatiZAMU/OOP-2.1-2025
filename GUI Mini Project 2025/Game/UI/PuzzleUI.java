@@ -170,11 +170,11 @@ public class PuzzleUI extends JPanel {
         JLabel pic = new JLabel(new ImageIcon(scaled));
 
         String msg = String.format("<html><b>Level Complete</b><br/>Moves: %d<br/>Time: %s</html>", moves, formatTime(seconds));
-        JPanel panel = new JPanel(new BorderLayout(8,8));
+        JPanel panel = new JPanel(new BorderLayout(8,8)); 
         panel.add(new JLabel(msg), BorderLayout.NORTH);
         panel.add(pic, BorderLayout.CENTER);
         panel.setPreferredSize(new Dimension(320, 400));
-        
+
 
         Object[] options = {"Continue", "Close"};
         int choice = JOptionPane.showOptionDialog(this, panel, "Level Complete",
