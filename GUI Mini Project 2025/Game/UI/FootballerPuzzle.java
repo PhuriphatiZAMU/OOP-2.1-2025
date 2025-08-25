@@ -39,7 +39,7 @@ public class FootballerPuzzle extends JFrame {
 
     private JMenuBar buildMenuBar() {
         JMenuBar mb = new JMenuBar();
-        JMenu gameMenu = new JMenu("Game");
+        JMenu gameMenu = new JMenu();
 
 
         JMenuItem newGame = new JMenuItem("New Game");

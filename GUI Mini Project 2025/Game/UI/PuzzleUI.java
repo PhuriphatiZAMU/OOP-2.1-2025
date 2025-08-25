@@ -50,7 +50,7 @@ public class PuzzleUI extends JPanel {
         add(top, BorderLayout.NORTH);
 
         // Board area
-        boardPanel.setLayout(new GridLayout(n, n, 6, 6));
+        boardPanel.setLayout(new GridLayout(n, n, 3, 3));
         boardPanel.setBackground(new Color(38, 95, 78));
         boardPanel.setPreferredSize(new Dimension(305, 305));
         add(boardPanel, BorderLayout.CENTER);
