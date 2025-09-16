@@ -2,6 +2,7 @@
 
 > 📅 Academic Year: 2025\
 > 👨‍🎓 Student: Phuriphati Hemakul\
+> 🧑‍🏫 Instructor: Dr. Chanakarn Kingkaew\
 > 🏫 Institution: Panyapiwat Institute of Management\
 > 💻 Course: Object-Oriented Programming (OOP)\
 > 🔤 Language: Java
