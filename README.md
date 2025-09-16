@@ -34,8 +34,6 @@ This repository contains a collection of Java programs created as part of the **
 
 ## 🎯 Learning Outcomes
 
-Through hands-on practice in this project, I developed:
-
 - ✅ Stronger understanding of OOP and Java syntax  
 - ✅ The ability to break problems into modular methods  
 - ✅ Confidence in using arrays and string handling techniques  
@@ -46,7 +44,7 @@ Through hands-on practice in this project, I developed:
 
 ## 🙋‍♂️ About Me
 
-Hi! I'm **Phuriphati Hemakul**, a second-year student at PIM. I'm enthusiastic about writing clean, maintainable code and building projects that reflect what I learn. This repository serves as both a practice log and a portfolio of my development in Java.
+Hi! I'm **Phuriphati Hemakul**, a second-year student at PIM. I'm enthusiastic about writing clean, maintainable code and building projects that reflect what I learn. This repository serves as both a practice log and a portfolio.
 
 - 🔗 GitHub: [PhuriphatiZAMU](https://github.com/PhuriphatiZAMU)  
 - 📚 Always exploring new tech and looking to improve
