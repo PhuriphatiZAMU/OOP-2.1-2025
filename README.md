@@ -1,4 +1,4 @@
-# 🎓 OOP-2.1-2025 Java Portfolio
+# 🎓 OOP-2.1-2025
 
 > 📅 Academic Year: 2025\
 > 👨‍🎓 Student: Phuriphati Hemakul\
