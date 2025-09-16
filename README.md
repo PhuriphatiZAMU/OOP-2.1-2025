@@ -14,23 +14,6 @@ This repository contains a collection of Java programs created as part of the **
 
 ---
 
-## 📂 Project Structure
-
-```
-OOP-2.1-2025/
-├── src/                         # Java source files
-│   ├── Account.java             # Bank account operations
-│   ├── Calculation.java         # Arithmetic + temperature conversion methods
-│   ├── CharArray.java           # String to character array processing
-│   ├── Student.java             # Student class with accessors
-│   ├── CaesarCipher.java        # Basic encryption algorithm
-│   ├── NameFormatter.java       # Capitalizing input strings
-│   └── ...                      # Additional exercises and examples
-├── README.md                    # This documentation file
-```
-
----
-
 ## ✨ Highlights
 
 | 🔢 **Topic**                  | 💡 **Description**                                                                                                          |
@@ -45,23 +28,6 @@ OOP-2.1-2025/
 | **8. GUI Programming**        | Shows simple Java GUI apps using Swing/JOptionPane.                                                                         |
 | **9. Error and Exception**    | Covers exception handling, try-catch, and Java error types.                                                                 |
 | **10. Collections**           | Introduces Java Collection Framework such as List, Set, and Map.                                                            |
-
----
-
-## 🚀 Getting Started
-
-To try out the programs:
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/PhuriphatiZAMU/OOP-2.1-2025.git
-   ```
-
-2. Open it using any Java IDE (e.g., IntelliJ IDEA, Eclipse, NetBeans)
-
-3. Navigate to the `src/` folder and run the desired `.java` file.
-
-> Most files include a `main` method, making them runnable as standalone examples.
 
 ---
 
